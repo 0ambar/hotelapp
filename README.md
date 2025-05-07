@@ -1,63 +1,62 @@
+- **Registro y Autenticación de Usuarios**:
+  - Los usuarios pueden crear cuentas e iniciar sesión en la app.
+  - Se integró la funcionalidad de inicio de sesión con Google para facilitar el acceso usando cuentas de Google.
 
-- User Registration and Authentication:
-    - Users can create accounts and log in to the app.
-    - Google Sign-In functionality is integrated for easy login using Google accounts.
+- **Gestión del Perfil de Usuario**:
+  - Los usuarios pueden ver y actualizar la información de su perfil, como nombre y fecha de nacimiento.
+  - Las fotos de perfil pueden subirse y almacenarse usando Firebase Storage.
 
-- User Profile Management:
-    - Users can view and update their profile information, such as name and birthdate.
-    - Profile pictures can be uploaded and stored using Firebase Storage.
+- **Búsqueda de Hoteles**:
+  - Los usuarios pueden buscar hoteles según varios criterios como ubicación, fecha y número de huéspedes.
+  - Los resultados de búsqueda se muestran con información detallada de cada hotel.
+  - Imágenes detalladas del hotel y puntuaciones de reseñas.
 
-- Hotel Search:
-    - Users can search for hotels based on various criteria such as location, date and guest number.
-    - Search results are displayed with detailed information about each hotel.
-    - Detailed hotel images and review scores.
+- **Filtro por Fecha**:
+  - Los usuarios pueden especificar las fechas de check-in y check-out deseadas para filtrar los resultados de búsqueda según disponibilidad.
 
-- Date Filtering:
-    - Users can specify the desired check-in and check-out dates to filter hotel search results based on availability.
+- **Añadir Hoteles a Favoritos**:
+  - Los usuarios pueden añadir hoteles a su lista de favoritos para acceder fácilmente.
+  - Los hoteles favoritos se almacenan en la base de datos de Firebase.
 
-- Adding Hotels to Favorites:
-    - Users can add hotels to their favorites list for easy access.
-    - Favorite hotels are stored in Firebase database.
+- **Especificar Número de Huéspedes**:
+  - Los usuarios pueden especificar el número de huéspedes para su reservación.
+  - El número de huéspedes se considera durante el proceso de reserva.
 
-- Specifying Guest Count:
-    - Users can specify the number of guests for their reservation.
-    - The guest count is considered during the booking process.
+- **Realizar Reservas**:
+  - Los usuarios pueden hacer reservas en los hoteles seleccionados.
+  - Los detalles de la reserva se almacenan en la base de datos de Firebase.
 
-- Making Reservations:
-    - Users can make reservations for selected hotels.
-    - Reservation details are stored in the Firebase database.
+- **Cancelar Reservas**:
+  - Los usuarios pueden cancelar sus reservas existentes.
+  - Las reservas canceladas se eliminan de la base de datos de Firebase.
 
-- Cancelling Reservations:
-    - Users can cancel their existing reservations.
-    - Cancelled reservations are removed from the Firebase database.
-    - 
-## Screenshots From Project
+## Capturas de Pantalla del Proyecto
+
 | <img src="Poster/StartPage.png" alt="Start Page" width="360" height="800"> | <img src="Poster/EnterEmail.png" alt="Email Page" width="360" height="800"> |
 |---|---|
-| Start Page | Email Page |
+| Página de Inicio | Página de Correo Electrónico |
 
 | <img src="Poster/Profile.png" alt="Profile Page" width="360" height="800"> | <img src="Poster/profileEdit.png" alt="Edit Profile Page" width="360" height="800"> |
 |---|---|
-| Profile Page | Edit Profile Page |
+| Página de Perfil | Página de Edición de Perfil |
 
 | <img src="Poster/Favorites.png" alt="Favorites Page" width="360" height="800"> | <img src="Poster/Search.png" alt="Search Page" width="360" height="800"> |
 |---|---|
-| Favorites Page | Search Page |
+| Página de Favoritos | Página de Búsqueda |
 
 | <img src="Poster/Search Results.png" alt="Search Results Page" width="360" height="800"> | <img src="Poster/Reservations.png" alt="Reservations Page" width="360" height="800"> |
 |---|---|
-| Search Results Page | Reservations Page |
+| Página de Resultados de Búsqueda | Página de Reservas |
 
 | <img src="Poster/HotelDetail.png" alt="Detailed Hotel Page" width="360" height="800"> |  |
 |---|---|
-| Detailed Hotel Page |  |
+| Página Detallada del Hotel |  |
 
+## Tecnologías Utilizadas
 
+- **Firebase Authentication**: Usado para registro de usuarios, inicio de sesión y gestión de perfil.
+- **Firebase Realtime Database**: Usado para almacenar datos de hoteles y reservas.
 
-## Technologies Used
+## API
 
-- Firebase Authentication: Used for user registration, login, and profile management.
-- Firebase Realtime Database: Used to store hotel and reservation data.
-
-## API 
- - Hotels API used in this project. Link : https://rapidapi.com/apidojo/api/hotels4/
+- **API de Hoteles** utilizada en este proyecto. Enlace: [https://rapidapi.com/apidojo/api/hotels4/](https://rapidapi.com/apidojo/api/hotels4/)
