@@ -14,7 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="220dp"
         android:layout_marginEnd="16dp"
-        android:text="Continue with email"
+        android:text="Continuar con email"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         app:backgroundTint="#E1A141"
@@ -24,23 +24,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#000000" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginFacebook"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:text="Continue with Facebook"
-        android:drawableLeft="@drawable/facebookicon"
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        app:cornerRadius="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginGoogle"
-        app:strokeColor="#8A8A8A" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/loginGoogle"
@@ -51,7 +34,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:drawableLeft="@drawable/googleicon"
-        android:text="Continue with Google"
+        android:text="Continuar con Google"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#000000"
@@ -67,7 +50,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="72dp"
-        android:text="Let's start"
+        android:text="Comenzar"
         android:textAlignment="viewStart"
         android:textColor="#000000"
         android:textSize="34sp"

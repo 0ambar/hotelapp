@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.hotelhive'
+    namespace 'com.example.hotelapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.hotelhive"
+        applicationId "com.example.hotelapp"
         minSdk 29
         targetSdk 33
         versionCode 1

@@ -18,7 +18,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="Nombre"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="32dp" />
@@ -27,7 +27,7 @@
                 android:id="@+id/nameEditLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Name"
+                android:hint="Nombre"
                >
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/nameEditText"
@@ -42,7 +42,7 @@
                 android:id="@+id/surnameEditLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Surname"
+                android:hint="Apellidos"
                 >
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/surnameEditText"
@@ -57,7 +57,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email Address"
+                android:text="Email"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="16dp" />
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Details"
+                android:text="Detalles"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="16dp" />
@@ -83,7 +83,7 @@
                 android:id="@+id/phoneEditLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Phone Number"
+                android:hint="Numero de telefono"
                 >
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/phoneEditText"
@@ -98,7 +98,7 @@
                 android:id="@+id/birthdateEditLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Birth Date"
+                android:hint="Fecha de nacimiento"
                 >
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/birthdateEditText"
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="225dp"
                 android:layout_marginTop="16dp"
-                android:text="Save Changes" />
+                android:text="Guardar" />
 
         </LinearLayout>
 
